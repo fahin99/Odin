@@ -1,0 +1,39 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    color: #263d45;
+    border: 2px solid #060c11;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+}
+
+td, th {
+    padding: 10px 20px;
+    border: 2px solid #09131e;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+th {
+    background-color: azure;
+}
+caption {
+    padding: 10px;
+    font-size: 0.75rem;
+    color: #011718;
+}
+tr.rowgroup{
+    border: 2px solid #060c11;
+    color: #1f2122;
+    font-weight: bolder;
+    font-size: 24px;
+}
+td#name{
+    text-align: left;
+    font-weight: bolder;
+}

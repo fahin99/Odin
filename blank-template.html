@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets Data</title>
+    <link rel="stylesheet" href="minimaal-table.css">
+</head>
+<body>
+    <h1>Planets Data</h1>
+    <table>
+        <caption>Data about the planets of our solar system (Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>)</caption>
+        <colgroup>
+            <col span="2">
+            <col style="border: 2px solid black;">
+            <col span="9" style="background-color: rgb(241, 246, 247);">
+        </colgroup>
+        <thead>
+            <tr style="font-weight: bold; text-align: center;">
+                <th colspan="2" scope="colgroup">&nbsp;</th>
+                <th scope="col">Name</th>
+                <th scope="col">Mass(10<sup>24</sup> kg)</th>
+                <th scope="col">Diameter (km)</th>
+                <th scope="col">Density (kg/m<sup>3</sup>)</th>
+                <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+                <th scope="col">Length of day(hours)</th>
+                <th scope="col">Distance from Sun(10<sup>6</sup>km)</th>
+                <th scope="col">Mean temperature(°C)</th>
+                <th scope="col">Number of moons</th>
+                <th scope="col">Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="4" scope="rowgroup" style="font-weight: bold;">Terrestrial Planets</td>
+                <td id="name" scope="row">Mercury</td>
+                <td>4,880</td>
+                <td>0.33</td>
+                <td>5.5</td>
+                <td>3.7</td>
+                <td>4222.6</td> 
+                <td>0</td>
+            </tr>
+            <tr>
+                <td scope="row" id="name">Venus</td>
+                <td>12,104</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td scope="row" id="name">Earth</td>
+                <td>12,742</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td scope="row" id="name">Mars</td>
+                <td>6,779</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4" scope="rowgroup" style="font-weight: bold;">Jovian Giants</td>
+                <td rowspan="2" scope="rowgroup" style="font-weight: bold;">Gas Giants</td>
+                <td scope="row" id="name">Jupiter</td>
+                <td>139,820</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td scope="row" id="name">Saturn</td>
+                <td>116,460</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td rowspan="2" scope="rowgroup" style="font-weight: bold;">Ice Giants</td>
+                <td scope="row" id="name">Uranus</td>
+                <td>50,724</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td scope="row" id="name">Neptune</td>
+                <td>49,244</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td colspan="2" scope="rowgroup" style="font-weight: bold;">Dwarf Planets</td>
+                <td scope="row" id="name">Pluto</td>
+                <td>2,377</td>
+                <td>5</td>
+        </tbody>
+    </table>
+</body>
+</html>
